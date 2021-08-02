@@ -1,0 +1,63 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url(./IMG_0432.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  text-align: center;
+}
+.buffer {
+  height: 10rem;
+}
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+h2{
+    color: #ffffff;
+    font-size: 2rem;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+hr {
+  background-color: #ccc;
+  color: #ccc;
+  border-width: 3px;
+  max-width: 65px;
+  opacity: 1;
+  margin: 1rem auto;
+  
+}
+p {
+  color: white;
+  font-weight: 900;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: #3c3c41;
+}
+.btn-primary:hover {
+  background-color: #2a2a2e;
+  border-width: 4px;
+}
